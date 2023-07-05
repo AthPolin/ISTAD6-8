@@ -1,0 +1,39 @@
+.container{
+    width: 100vw;
+    height: 500vw;
+    background-color: bisque;
+    position: relative;
+}
+.box{
+    width: 200px;
+    height: 200px;
+}
+.lightblue{
+    background-color: lightblue;
+    position: absolute;
+    right: 0;
+}
+.purple{
+    background-color: purple;
+    /* The box's position is calculated according to the normal flow */
+    position:absolute ;
+    bottom: 0;
+}
+.orange{
+    background-color: orange;
+    position: sticky;
+    /* margin: 10px; */
+}
+.red{
+    background-color: red;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.sticky{
+    background-color: green;
+    position: absolute;
+    position: sticky;
+    top: 0px;
+
+}

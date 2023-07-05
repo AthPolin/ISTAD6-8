@@ -1,0 +1,28 @@
+/* configuration local fonts */
+@font-face{
+    font-family: 'Lilita One', cursive;
+}
+h1{
+    font-family: 'Lilita One', cursive;
+}
+h2{
+    font-family: 'Satisfy', cursive;
+}
+h3{
+    font-family: 'Lilita One', cursive;
+}
+svg{
+    width: 100px;
+    color: purple;
+    display: block;
+    margin: auto;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.services-item{
+    width: 250px;
+    text-align: center;
+}

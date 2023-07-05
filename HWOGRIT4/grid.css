@@ -1,0 +1,112 @@
+h3{
+    text-align: center;
+}
+.solid{
+    border: 1px  solid black;
+}
+.container{
+    color: white;
+    display: grid;
+    /* border: 1px solid black; */
+    /* grid-template-columns:100px 100px 100px 100px; */
+    /* margin: 10px; */
+    /* grid-template-columns: repeat(4 1fr);
+    grid-template-rows: repeat(6 1fr); */
+}
+p{
+    font-size: 14px;
+    padding: 10px;
+}
+h1{
+    font-size: 20px;
+    padding: 10px;
+}
+.a{
+    margin: 5px;
+    grid-column: 1 / span 3;
+    color: white;
+    background-color: rgb(26, 23, 23);
+    border-radius: 5px;
+}
+.b{
+    grid-column: 4;
+    grid-row: 1;
+    background-color: rgb(179, 179, 187);
+    margin: 5px;
+    border-radius: 5px;
+    color: blue;
+    border: 1px solid black;
+}
+.c{
+    background-color: rgb(84, 84, 197);
+    margin: 5px;
+    /* grid-column: 1 / span 4; */
+    grid-column: 1 / span 4;
+    grid-row:2;
+    border-radius: 5px;
+}
+.d{
+    background-color: rgb(179, 179, 187);
+    margin: 5px;
+    /* grid-column: 1 / span 2; */
+    /* grid-column: 3 / span2; */
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    border-radius: 5px;
+    color: blue;
+}
+.e{
+    background-color: rgb(179, 179, 187);
+    margin: 5px;
+    grid-column: 3 / span 2;
+    grid-row: 3;
+    border-radius: 5px;
+    color: blue;
+}
+.f{
+    background-color: rgb(179, 179, 187);
+    margin: 5px;
+    grid-column: 1 /span 3;
+    grid-row: 4;
+    border-radius: 5px;
+    color: blue;
+}
+.g{
+    background-color: rgb(179, 179, 187);
+    margin: 5px;
+    grid-column: 4;
+    border-radius: 5px;
+    color: blue;
+}
+.h{
+    background-color: rgb(179, 179, 187);
+    margin: 5px;
+    grid-column: 1 /span 2;
+    grid-row: 5;
+    border-radius: 5px;
+    color: blue;
+}
+.i{
+    background-color: rgb(179, 179, 187);;
+    margin: 5px;
+    grid-column: 3;
+    grid-row: 5;
+    border-radius: 5px;
+    color: blue;
+}
+.j{
+    background-color: rgb(179, 179, 187);
+    margin: 5px;
+    grid-column: 4;
+    grid-row: 5;
+    border-radius: 5px;
+    color: blue;
+}
+.k{
+    background-color: rgb(179, 179, 187);
+    margin: 5px;
+    grid-column: 1 /span 4;
+    grid-row: 6;
+    border-radius: 5px;
+    color: blue;
+}

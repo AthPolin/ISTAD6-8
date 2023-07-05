@@ -1,0 +1,17 @@
+/*  */
+*{
+    color: blue;
+}
+/* .classname */
+.top-heading{
+    color: green;
+}
+/* id */
+#heading{
+    color: red;
+}
+/* apply only h2 inside section */
+section h2{
+    text-transform: uppercase;
+}
+

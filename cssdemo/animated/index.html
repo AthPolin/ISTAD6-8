@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-ANIMATION</title>
+    <!-- link cdn -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        @keyframes up-down {
+            from{
+                transform: translateY(90px); 
+            }
+            to{
+                transform: translateX(-90px);
+                /* ot sov jbas */
+                opacity: 0.4; 
+            }
+        }
+        .container{
+            display: flex;
+            /* (infinite tv vinh tv mk ot chop) */
+            animation: up-down 1s infinite alternate;
+        }
+        .forest{
+            width: 20%;
+            height: 20%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="discrib">
+            <div class="animate__animated animate__tada">
+                <img src="https://cdn.pixabay.com/photo/2022/07/19/10/15/sea-7331682_640.jpg" alt="">
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia itaque tenetur tempore. Cupiditate consectetur excepturi nostrum facere fugiat et, inventore, itaque assumenda, nulla ab alias consequuntur! Optio consequatur animi consectetur!</p>
+        </div>
+    </div>
+    <section>
+        <div class="forest">
+            <img src="./../img/Forest.png" alt="">
+        </div>
+    </section>
+</body>
+</html>
